@@ -1,0 +1,173 @@
+$icon-size:50px;
+$dark-overlay:rgba(0,0,0,0.7);
+
+.navbar{
+	background:#000;
+	
+	.nav-item{
+	padding-left:1em;
+	
+	.nav-link{
+		text-transform:uppercase;
+	}
+	}
+}
+
+.carousel-item{
+	height:450px;
+}
+
+.carousel-img-1{
+	background:url('../img/image1.jpeg');
+	background-size:cover;
+}
+.carousel-img-2{
+	background:url('../img/image2.jpeg');
+	background-size:cover;
+}
+.carousel-img-3{
+	background:url('../img/bhairab.jpg');
+	background-size:cover;
+}
+
+#Home-icon{
+	.fa{
+	font-size:50px;
+	}
+}
+#Home-Started{
+	position:relative;
+	background:url('../img/bg1.jpeg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	color:#fff;
+	min-height:250px;
+	
+	.dark-overlay{
+	background:rgba(0, 30, 0, 0.6);
+	min-height:250px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	}
+}
+#Home-video{
+	position:relative;
+	background:url('../img/people.jpeg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	color:#fff;
+	min-height:250px;
+	
+	.dark-overlay{
+	background:rgba(198, 0, 0, 0.3);
+	position:absolute;
+	min-height:250px;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	
+	.fa{
+	 font-size:40px;
+	
+	}
+	}
+}
+#photo-gallery{
+	img{
+	min-height:250px;
+	}
+}
+#Footer{
+	background:#000;
+}
+
+
+
+#Page-Header{
+	background:url('../img/n (3).jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	min-height:200px;
+	color:#000;
+}
+#about-section{
+	img{
+	width:350px;
+	height:350px;
+	}
+}
+#Icon-Boxes{
+	.fa{
+	font-size:50px;
+	margin-bottom:20px;
+	}
+}
+#Testimonial{
+	.slick-prev::before,
+	.slick-next::before{
+		color:#000;
+	}
+}
+
+#Service-Header{
+	background:url('../img/image3.jpeg');
+	background-size:cover;
+	background-attachment:fixed;
+	min-height:250px;
+}
+#Blog-Header{
+	background:url('../img/n (5).jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	min-height:250px;
+}
+#Blog-main-section{
+	.card{
+		img{
+		
+			height:350px;
+		}
+	}
+}
+#Contact-Header{
+	background:url('../img/bhairab.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	min-height:250px;
+}
+
+@media(max-width: 768px){
+	#photo-gallery{
+	img{
+	min-width:100%;
+	}
+}
+
+}
+
+
+@media(max-width: 767px){
+	.nav-item{
+		padding-left:0 ! important;
+			
+	}
+	#Home-Started{
+		min-height:300px;
+	}
+	
+}
+
+@media(max-width:480px){
+	
+	#Home-Started{
+		min-height:400px;
+	}
+}
+	
